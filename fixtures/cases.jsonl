@@ -1,0 +1,1 @@
+{"description": "evaluate explicit required and forbidden response text", "expected": {"checks": [{"kind": "contains", "passed": true, "value": "hello"}, {"kind": "excludes", "passed": true, "value": "secret"}], "passed": true}, "id": "prompts-0000", "input": {"contains": ["hello"], "excludes": ["secret"], "response": "hello world"}}
