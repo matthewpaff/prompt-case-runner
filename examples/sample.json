@@ -1,0 +1,9 @@
+{
+  "response": "hello world",
+  "contains": [
+    "hello"
+  ],
+  "excludes": [
+    "secret"
+  ]
+}
